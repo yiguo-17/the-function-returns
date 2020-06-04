@@ -1,6 +1,40 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+//Varibles
+ let greeting = 'Hello';
+let sum = 0;
+let prod = 0;
+
+//Functions
+function greet(gp){
+greeting = greeting + ' ' + gp;
+}
+function sumOfTwo(num1,num2){
+sum = num1 + num2;
+}
+function multiply(num1,num2,num3){
+prod = num1 * num2 * num3;
+}
+
+//Functions with return
+function returnWhatISay(sentence){
+let chat = sentence;
+return chat;
+}
+function sayHi(name){
+let output ='Hello ' + name + '!';
+return output
+}
+function divide(num1, num2){
+let product = num1 / num2;
+return product;
+}
+function remainder(num1, num2){
+let rmnd = num1 % num2;
+return rmnd;
+}
+
 
 
 
